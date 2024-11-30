@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+header {
+    background: url('hummus-bg.jpg') center/cover no-repeat;
+    color: white;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    font-size: 14px;
+}
+
+img {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.menu-title{
+    color: black;
+    text-decoration: none;
+}
+
+.home-menu img{
+    width: 15rem;
+    height: 10rem;
+}
+

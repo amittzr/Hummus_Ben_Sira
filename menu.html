@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hummus Ben Sira Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        /* Additional mobile styling */
+        @media (max-width: 576px) {
+            .menu-item img {
+                width: 100%;
+                height: auto;
+                max-width: 150px; /* Smaller images */
+                margin: 0 auto; /* Center images */
+                display: block;
+            }
+            .menu-item {
+                text-align: center; /* Center text on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="pictures/Logo.png" alt="Hummus Heaven Logo" width="40" height="40" class="d-inline-block align-text-top">
+                Hummus Ben Sira
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Order</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <h1>Hummus Ben Sira</h1>
+            <p class="lead">Menu</p>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Our Menu</h2>
+            <div class="row mt-5 g-4">
+                <!-- Menu Item 1 -->
+                <div class="col-12 col-md-6 menu-item d-flex align-items-center">
+                    <div class="col-4">
+                        <img src="pictures/cheakpeas.jpeg" alt="Classic Hummus" class="img-fluid rounded">
+                    </div>
+                    <div class="col-8">
+                        <h4>Classic Hummus</h4>
+                        <p>Rich, creamy, and topped with olive oil.</p>
+                    </div>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="col-12 col-md-6 menu-item d-flex align-items-center">
+                    <div class="col-4">
+                        <img src="pictures/cheakpeas2.jpeg" alt="Spicy Hummus" class="img-fluid rounded">
+                    </div>
+                    <div class="col-8">
+                        <h4>Spicy Hummus</h4>
+                        <p>Hummus with a kick of chili.</p>
+                    </div>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="col-12 col-md-6 menu-item d-flex align-items-center">
+                    <div class="col-4">
+                        <img src="pictures/falafel.jpeg" alt="Hummus with Toppings" class="img-fluid rounded">
+                    </div>
+                    <div class="col-8">
+                        <h4>Hummus with Toppings</h4>
+                        <p>Served with falafel, mushrooms, or shawarma.</p>
+                    </div>
+                </div>
+                <!-- Menu Item 4 -->
+                <div class="col-12 col-md-6 menu-item d-flex align-items-center">
+                    <div class="col-4">
+                        <img src="pictures/sabich.jpeg" alt="Vegan Hummus" class="img-fluid rounded">
+                    </div>
+                    <div class="col-8">
+                        <h4>Vegan Hummus</h4>
+                        <p>Made with 100% vegan ingredients.</p>
+                    </div>
+                </div>
+                <!-- Menu Item 5 -->
+                <div class="col-12 col-md-6 menu-item d-flex align-items-center">
+                    <div class="col-4">
+                        <img src="pictures/IMG-20241130-WA0037.jpg" alt="Deluxe Hummus" class="img-fluid rounded">
+                    </div>
+                    <div class="col-8">
+                        <h4>Deluxe Hummus</h4>
+                        <p>A mix of flavors with all the toppings you love.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 Hummus Heaven. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
